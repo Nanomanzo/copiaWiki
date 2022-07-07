@@ -1,0 +1,420 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin-top: 4rem;
+}
+
+.titulo-principal{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 19.50px;
+}
+
+.titulo-principal h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline;
+}
+
+header .titulo-mayuscula{
+    font-size: 3.5rem;
+}
+
+.titulo-principal h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0.1rem;
+}
+
+.navegacion .contenedor-navegacion h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+}
+
+.articulo-navegacion11{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/Wikipedia-logo-v2@2x.png");
+    width: 210px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.contenedor-navegacion{
+    display: grid;
+    grid-template-columns: 10px repeat(7, 70px) 10px;
+    grid-template-rows: repeat(5, 65px);
+    justify-content: center;
+}
+
+.contenedor-navegacion h1{
+    font-size: 1.8rem;
+    color: #3366cc;
+}
+
+.contenedor-navegacion p{
+    font-size: 1.2rem;
+    color: #54595d;
+}
+
+.articulo-navegacion1{
+    grid-column: 3 / span 2;
+    justify-self: start;
+    text-align: center;
+}
+
+.articulo-navegacion2{
+    grid-column: 6 / span 2;
+    justify-self: end;
+    text-align: center;
+}
+
+.articulo-navegacion3{
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    justify-self: start;
+    text-align: center;
+}
+
+.articulo-navegacion4{
+    grid-column: 7 / span 2;
+    grid-row: 2;
+    justify-self: end;
+    text-align: center;
+}
+
+.articulo-navegacion5{
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    justify-self: start;
+    text-align: center;
+}
+
+.articulo-navegacion6{
+    grid-column: 7 / span 3;
+    grid-row: 3;
+    justify-self: end;
+    text-align: center;
+}
+
+.articulo-navegacion7{
+    grid-column: 2 / span 2;
+    grid-row: 4;
+    justify-self: start;
+    text-align: center;
+}
+
+.articulo-navegacion8{
+    grid-column: 6 / span 3;
+    grid-row: 4;
+    justify-self: end;
+    text-align: center;
+}
+
+.articulo-navegacion9{
+    grid-column: 3 / span 2;
+    grid-row: 5;
+    justify-self: start;
+    text-align: center;
+}
+
+.articulo-navegacion10{
+    grid-column: 5 / span 3;
+    grid-row: 5;
+    justify-self: end;
+    text-align: center;
+}
+
+.boton-busqueda{
+    background-color: #3366cc;
+    height: 43.31px;
+    width: 63px;
+    border: none;
+    border-radius: 0 2px 2px 0;
+}
+
+button .lupa-buscar{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: 0 -669px;
+    display: block;
+    padding: 10px;
+    margin-left: 17px
+ }
+
+ .contenedor-form{
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 33.800px;
+
+ }
+
+ .contenedor-busqueda{
+     border: 1px solid #d8dbde;
+     display: flex;
+     width: 100%;
+     max-width: 500px;
+ }
+
+ input{
+     border: none;
+     outline: none;
+     padding-left: 10px;
+     width: 100%;
+ }
+
+ form{
+    display: flex;
+    width: 80%;
+    max-width: 500px;
+}
+
+.contenedor-busqueda p{
+    width: 60px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Flecha-cambiar-idioma{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-position: 0 -520px;
+    height: 8px;
+    width: 12px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/*menu desplegable idioma*/
+.escoger-idioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escoger-idioma hr{
+    max-width: 101.2px;
+    width: 10%;
+    height: 2px;
+    background-color: #a2a9b1;
+    border: none;
+
+}
+
+.menu-desplegable-idioma{
+    width: 40%;
+    max-width: 260px;
+    height: 34px;
+    border: 1px solid #a2a9b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0000ee;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-desplegable-idioma:hover{
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+.simbolo-idioma{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: 0 -691px;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.flecha-escoger-idioma{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: 0 -526px;;
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-left: 6px;
+}
+
+.division{
+    margin-top: 34px;
+    width: 97%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a2a9b1;
+    border: none;
+}
+
+/*parte final */
+.parte-final{
+    margin-top: 41px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.soporte-descarga{
+    width: 30%;
+    height: auto;  /*esto se tiene que poner en auto*/
+    display: block;
+    padding-right: 80px;
+}
+
+.soporte-imagen img{
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+}
+
+.soporte-texto{
+    margin-left: 5px;
+}
+
+.soporte-texto a{
+    text-decoration: none;
+    color: #36c;
+}
+
+.soporte{
+    display: flex;
+}
+
+/*descarga la app*/
+
+.descarga img{
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+}
+
+.descarga{
+    display: flex;
+    margin-top: 32px;
+    background-color: #f8f9fa;
+}
+
+.descarga-texto .android{
+    width: 128px;
+    height: 38px;
+    margin-top: 13px;
+}
+
+.descarga-texto .ios{
+    width: 110px;
+    height: 38px;
+    margin-top: 13px;
+}
+
+.descarga-texto{
+    margin-left: 5px;
+}
+
+.descarga-texto h3{
+    font-size: 1.3rem;
+    margin-bottom: 13px;
+}
+
+/*diferentes paginas*/
+.diferentes-paginas{
+    width: 60%;
+    height: auto;  /*esto se tiene que poner en auto*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.contenedor-paginas{
+    width: 33.333333333333333333333333333333333%;
+    height: auto;
+    padding: 13px;
+}
+
+.contenedor-paginas{
+    display: flex;
+    align-items: center;
+}
+
+.imagenes-paginas img{
+    width: 47px;
+    height: 47px;
+}
+
+.texto-paginas{
+    padding-left: 8px;
+}
+
+.texto-paginas h5{
+    color: #337edb;
+}
+
+/*hover de los idiomas*/
+
+.contenedor-navegacion h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer ul{
+    display: flex;
+    margin-left: 25px;
+}
+
+footer a{
+    margin: 0 5px;
+}
+
+footer .politica-privacidad{
+    margin-left: 25px;
+}
